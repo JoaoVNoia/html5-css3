@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes em CSS</title>
+
+    <style>
+        body{
+            font-family: sans-serif;
+            
+            /*
+            MEDIDAS ABSOLUTAS
+            
+            cm (centimetro), mm (milimetro), in (polegada), px (pixel), pt (ponto) e pc (paica).
+
+            MEDIDAS RELATIVAS
+
+            em (tamanho relativo ao M maiusculo), ex (relativo a altura x), rem (em relativo ao root), vw (view width largura da tela), vh (view heigth altura da tela) e %.
+
+            16px = 1em tamanho dado normalmente pelos navegadores.
+
+            ### A w3c recomenda a utilização do px e da em ###
+            */
+
+            font-size: 1em;
+            text-align: justify;
+
+            /* A FONTE DEVE PERMITIR O USO DOS SEGUINTES:
+                
+                font-weigth = peso da fonte
+                font-style = estilo (negrito, itálico)
+                text-decoration = sublinhado 
+                
+                ##### PARA USA-LAS TBM É POSSIVEL COM:
+                SHORTLAND FONT
+                -> font-style -> font-weigth -> font-size -> font-family
+                exemplo:
+
+                font: italic bolder 3em 'work sans', sans-serif;
+            */
+        }
+
+        h1{
+            font-family: serif;
+        }
+
+        h2{
+            font-family: monospace;
+        }
+    </style>
+</head>
+<body>
+    <h1>Trabalhando com fontes</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti nulla itaque facere quos amet omnis, minus error vero iste. Deleniti praesentium amet consectetur magni officia ratione natus sit eum quos? Lorem, ipsum dolor sit amet consectetur adipisicing elit. Impedit dolores ea, maiores atque repellat consequatur laborum provident dolore, odit nesciunt, eius autem praesentium reiciendis doloremque. Quod dolore ex nobis reiciendis.</p>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores dolores, dolor saepe cupiditate sequi rerum veritatis doloremque perferendis pariatur ullam nesciunt, ad consequatur corrupti dolorem quam eius. Tenetur, sequi obcaecati.</p>
+    <h2>Subtítulo do exercício</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error accusamus consequuntur illo labore consequatur doloremque, aliquam accusantium aspernatur ea fuga consectetur, hic inventore, dicta soluta tenetur alias iure ratione in!</p>
+</body>
+</html>

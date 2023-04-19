@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Videos</title>
+</head>
+<body>
+    <h1>Introduzindo videos</h1>
+    <h2>Hospedado diretamente no meu servidor</h2>
+    <p>Esse é o método de acrescentar um único formato com a tag &lt;video&gt;</p>
+    <video src="midia/video-da-anna-zviahina-ua-02.m4v" controls width="405px" height="720vh"></video>
+
+    <p>Esse é o método de acrescentar vários formatos, para que rode o mais leve arquivo que for compativel com o navegador</p>
+    <video controls width="405px">
+        <source src="midia/video-da-anna-zviahina-ua-02.m4v">
+        <source src="midia/video-da-anna-zviahina-ua-03.mp4" type="video/mp4">
+        <source src="midia/video-da-anna-zviahina-ua-04.webm" type="video/webm">
+        <p>Infelizmente seu navegador não permite nenhum dos formatos de vídeo disponiveis no momento.</p>
+    </video>
+
+    <h2>Hospedagem externa</h2>
+    <p>Nesse metodo pegamos videos no YouTube, Vimeo ou similar</p>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/3hng-hmSv2Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</body>
+</html>

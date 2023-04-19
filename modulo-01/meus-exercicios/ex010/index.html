@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+</head>
+<body>
+    <h1>Links</h1>
+    <h2>Link simples</h2>
+    <a href="https://joaovnoia.github.io/aprendizado-projeto-the-last-of-us/">Meu primeiro site guiado.</a>
+    
+    <h2>Atributo hreflang</h2>
+    <a href="https://www.w3schools.com/html/" hreflang="en">W3Schools (site em inglês).</a>
+
+    <h2>Target</h2>
+    <!--
+        target="_blank" direciona o link para uma nova janela em branco;
+        target="_self" atualiza a janela atual pela do link;
+        target="_top"
+        target="_parent"
+        rel="external" para sites externos, que não sejam do seu site
+    -->
+    <ul>
+        <li>Link para <a href="https://joaovnoia.github.io/aprendizado-projeto-the-last-of-us/" target="_blank" rel="external">meu primeiro site guiado</a>, usando o target _blank</li>
+        <li>Link para <a href="https://joaovnoia.github.io/aprendizado-projeto-the-last-of-us/" target="_self" rel="external">meu primeiro site guiado</a>, usando o target _self</li>
+        <li>Link para <a href="https://joaovnoia.github.io/aprendizado-projeto-the-last-of-us/" target="_top" rel="external">meu primeiro site guiado</a>, usando o target _top</li>
+        <li>Link para <a href="https://joaovnoia.github.io/aprendizado-projeto-the-last-of-us/" target="_parent" rel="external">meu primeiro site guiado</a>, usando o target _parent</li>
+    </ul>
+
+    <h2>Link interno</h2>
+    <p>Caso queira ir para a segunda página dentro desse site, <a href="pag-002.html" rel="next">clique aqui</a>.</p>
+    <p>Caso queira visitar a terceira página, <a href="noticias/pag-003.html" rel="next">clique aqui</a>.</p>
+
+    <h2>Links para Downloads</h2>
+    <ul>
+        <li><a href="livro/curriculo.pdf" download="curriculo.pdf" type="application/pdf">Baixar meu currículo em PDF</a></li>
+        <li><a href="livro/curriculo.zip" download="curriculo.zip" type="application/zip">Baixar meu currículo em ZIP</a></li>
+    </ul>
+</body>
+</html>

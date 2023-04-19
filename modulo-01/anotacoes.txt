@@ -1,0 +1,130 @@
+MODULO  01 - CAP 03
+
+- HTML: Conteudo;
+- CSS: Estilo;
+- JAVASCRIPT: Interatividade.
+
+<p> tag de paragrafo </p>
+
+Estrutura básica do HTML: essa estrutura básica pode ser auto escrita no VS code com os atalhos ( ! + ENTER ) ou ( html5 + ENTER )
+
+<! DOCTYPE html>                                                                                                                           (indica o tipo de documento que se está utilizando)
+<html lang="pt-br">                                                                                                                          (indica o começo do documento html e a linguagem utilizada)
+<head>                                                                                                                                                  (inicio da cabeça, local onde as configs ficam)
+         <meta charset="UTF-8">                                                                                                         (dá ao documento suporte a caracteres acentuados)
+         <meta name="viewport" content="width=device-width, initial-scale=1.0">           (indica que o conteudo aparecerá preenchendo todo o espaço da tela, em escala 1:1)
+         <title>Document</title>                                                                                                         (configura o titulo que aparecerá na aba do navegador)
+<head>                                                                                                                                                  (fim da cabeça)
+
+<body>                                                                                                                                                  (inicio do corpo do site, local onde fica o conteudo do site)
+
+<body>                                                                                                                                                  (fim do corpo do site)
+
+<html>                                                                                                                                                   (indica o final do documento html)
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+MODULO 01 - CAP 04
+
+<h1> Titulo de nível 1 </h1>
+<h2> Titulo de nível 2 </h2>
+<h3> Titulo de nível 3 </h3>
+<h4> Titulo de nível 4 </h4>
+<h5> Titulo de nível 5 </h5>
+<h6> Titulo de nível 6 </h6>
+
+<hr> tag sem fechamento, produz uma linha horizontal.
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+MODULO 01 - CAP 05
+
+<br> utilizado dentro do paragrafo para quebrar a linha sem ter que abrir outro paragrafo
+HTML Entities:  ( &(conteudo); ) o conteudo é facilmente pesquisavel
+Emoji: ( &#x(codigo do emoji) ) o código é acessivel por sites como emojipedia
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+MODULO 01 - CAP 06
+
+### CUIDADO AO UTILIZAR IMAGENS DA INTERNET, POIS A MAIORIA TEM DIREITO AUTORAL. PROCURE SEMPRE EM BACOS IMAGENS GRÁTIS, COMPRE O DIREITO DE IMAGEM OU FAÇA AS SUAS PRÓPRIAS IMAGENS !!!
+
+JPEG - maior compactação, não permite a transparência (consome menos memoria)
+PNG - menor compactação, permite transparência
+
+MÉTODOS DE ADICIONAR IMAGENS NO SITE
+
+<img src="logo.png" alt="imagem da logo">                          ( exemplo na mesma página do index.html)
+<img src="/imagens/logo.png" alt="imagem da logo">       ( exemplo de imagem em outra pasta, a pasta deve estar na mesma pasta que o index.html)
+<img src="url da imagem" alt="imagem da logo">               ( exemplo de imagem tirada diretamente de outro site)
+
+FAVICON (icone que fica na aba do navegador)
+
+Com uma imagem do tipo img.ico, podem ser feitos, baixados ou convertidos. (IconArchive, favicon.cc ou favicon.io)
+São acrescentados na parte da cabeça:
+
+<head>                                                                                                                                                
+         <meta charset="UTF-8">                                                                                                       
+         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+----- <link rel="shortcut icon" href="favicon.io" type="image/x-icon"> --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+         <title>Document</title>                                                                                                         
+<head>
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+MODULO 01 - CAP 07
+
+São 6 níveis de títulos (<h1>, <h2>, <h3>, <h4>, <h5>, <h6>):  h1 o mais importante até h6 o menos importante.
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+MODULO 01 - CAP 08
+
+No html 5 a semântica é o mais importante e a forma é utilizada agora com as CSS 3.
+
+<strong> deixa o texto dentro das tags em negrito </strong>
+<em> deixa o texto dentro das tags com enfase e fica em italico </em>
+<mark> deixa o texto dentro das tags em destaque como um marca texto </mark>
+<small> deixa o texto com letras pequenas </small>
+<del> texto deletado pode ser lido, mas seu conteudo deve ser ignorado </del>
+<ins> sublinha o texto dentro das tags </ins>
+<sup> numero ou texto como em x elevado ao 2 </sup>
+<sub> numero ou texto como em elementos H2O </sub>
+<code> dentro dessas tags os códigos ficam visualmente melhores, mas ficam todos na mesma linha </code>
+<pre> utilizado antes da tag code o código fica modelado da maneira que foi escrita </pre>
+<q> utilizado para citar dentro do paragrafo </q>
+<blockquote cite="url"> utilizado para citar e deixa uma url para conhecimento do google </blockquote>
+<abbr title="Hyper Text Markup Language">HTML</abbr>  (no site o HTML aparece destacado e quando se passa o mouse vemos o texto title="Hyper Text Markup Language")
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+MODULO 01 - CAP 09
+
+Listas Ordenadas: lista que vem com um metodo de enumerar os itens na lista (1-, 2-,,, A-, B-,,, a-, b-,,, I-, II-,,, i-, ii-).
+<ol> Tag para lista ordenada, podendo apresentar um type="(1, A, a, I, i)" para diferenciar o tipo de enumeração </ol>
+
+Listas Desordenadas: lista que ao inves de numeração são representados por figuras com pontos, quadrados ou circulos.
+<ul> Tag para lista desordenada, podendo apresentar um type="(disc, circle, square, none)" para diferenciar a figura </ul>
+
+<li> Tag de lista, dentro das tags <ol> e <ul>, na tag li estçao os itens da lista onde cada item permanece em uma tag diferente </li>
+
+É possivel misturar <ol> e <ul>, dentro umas das outras, para fazer listas mais complexas.
+
+Lista de Definição: uma lista que separa em titulos e texto de definição
+<dl> Tag que delimita a lista de definições </dl>
+<dt> Tag que contem algo a ser descrito (Ex.: HTML) </dt>
+<dd> Tag contendo o texto que define o "algo" da tag <dt> (Ex.: É um linguaguem de marcação ... ) </dd>
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+MODULO 01 - CAP 10
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+MODULO 01 - CAP 11
+
+<picture> Delimita um local onde é possível utilizar várias imagens de tamanhos diferentes </picture>
+<source> É a tag dentro da tag <picture> que utilizamos para buscar uma nova imagem caso o tamanho da tela não seja adequado. </source>
+<audio> e <source> Para audios (controls, para mostrar os controles de audio. autoplay, para tocar automaticamente.)
+<videos> e <source> para videos (controls. poster, para tambs) *** consome muita banda, por isso aumenta o custo, é recomendado utilizar um canal noYoutube, vimeo ou outro para consumir menos banda.
+Para utilizar videos de outro site (Youtube, vimeo) vá até o site e busque o compartilhar nele vc pode clicar em incorporar e copiar o código. No Youtube o video fica aberto para todos, já no vimeo vc pode limitar quem está vendo.
