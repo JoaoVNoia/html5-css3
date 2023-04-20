@@ -6,4 +6,4 @@ Pra acessar meu primeiro site do Curso em Vídeo:
 
 
 Ou Utilize esse QR Code:
-https://github.com/JoaoVNoia/html5-css3/issues/1#issue-1676738807
+![frame](https://user-images.githubusercontent.com/127201048/233383416-65d59c5f-64ed-4f72-88c2-79aab7e20c64.png)
